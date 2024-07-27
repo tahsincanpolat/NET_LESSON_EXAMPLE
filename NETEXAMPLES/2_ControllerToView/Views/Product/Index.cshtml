@@ -1,0 +1,10 @@
+﻿<p>Hello Product</p>
+@{
+    // Razor
+}
+<ul>
+    @foreach (var item in (List<string>)ViewData["products"])
+    {
+        <li>@item</li>
+    }
+</ul>
