@@ -7,7 +7,7 @@ namespace ProgramCS_Route.Controllers
     {
        
         // Index methodu geriye IActionResult döndürür. Yani geriye view döndürür.
-        public IActionResult Index()
+        public IActionResult Index()  // Home/Index => Views/Home/Index.cshtml
         {
             return View();
         }

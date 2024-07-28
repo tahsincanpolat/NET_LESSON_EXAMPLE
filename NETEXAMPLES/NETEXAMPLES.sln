@@ -3,9 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramCS_Route", "ProgramCS_Route\ProgramCS_Route.csproj", "{AE9F9AA6-5D03-4846-AFE6-2FDF26C0FD0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProgramCS_Route", "ProgramCS_Route\ProgramCS_Route.csproj", "{AE9F9AA6-5D03-4846-AFE6-2FDF26C0FD0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_ControllerToView", "2_ControllerToView\2_ControllerToView.csproj", "{57EB544D-E4F4-41C0-BAD9-E249F37266F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2_ControllerToView", "2_ControllerToView\2_ControllerToView.csproj", "{57EB544D-E4F4-41C0-BAD9-E249F37266F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_ViewToController", "3_ViewToController\3_ViewToController.csproj", "{7EC727B8-ECFB-49AA-ACF6-94D6E99D57D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_ViewBag_ViewData_TempData", "4_ViewBag_ViewData_TempData\4_ViewBag_ViewData_TempData.csproj", "{1674BC4F-96CF-41F2-A3AC-9A9462815074}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_ModelsExample", "5_ModelsExample\5_ModelsExample.csproj", "{3D52D03D-7806-4489-B2E4-DCD1BCAE16E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_HtmlHelperAndModels", "6_HtmlHelperAndModels\6_HtmlHelperAndModels.csproj", "{FB0A9754-6989-44A2-8DD8-4E64E3C5A877}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_CustomHelpers", "7_CustomHelpers\7_CustomHelpers.csproj", "{6B6A3BA6-40E7-44C7-84D6-6E439019BC31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +31,26 @@ Global
 		{57EB544D-E4F4-41C0-BAD9-E249F37266F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57EB544D-E4F4-41C0-BAD9-E249F37266F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57EB544D-E4F4-41C0-BAD9-E249F37266F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EC727B8-ECFB-49AA-ACF6-94D6E99D57D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EC727B8-ECFB-49AA-ACF6-94D6E99D57D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EC727B8-ECFB-49AA-ACF6-94D6E99D57D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EC727B8-ECFB-49AA-ACF6-94D6E99D57D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1674BC4F-96CF-41F2-A3AC-9A9462815074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1674BC4F-96CF-41F2-A3AC-9A9462815074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1674BC4F-96CF-41F2-A3AC-9A9462815074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1674BC4F-96CF-41F2-A3AC-9A9462815074}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D52D03D-7806-4489-B2E4-DCD1BCAE16E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D52D03D-7806-4489-B2E4-DCD1BCAE16E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D52D03D-7806-4489-B2E4-DCD1BCAE16E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D52D03D-7806-4489-B2E4-DCD1BCAE16E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB0A9754-6989-44A2-8DD8-4E64E3C5A877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB0A9754-6989-44A2-8DD8-4E64E3C5A877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB0A9754-6989-44A2-8DD8-4E64E3C5A877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB0A9754-6989-44A2-8DD8-4E64E3C5A877}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B6A3BA6-40E7-44C7-84D6-6E439019BC31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B6A3BA6-40E7-44C7-84D6-6E439019BC31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B6A3BA6-40E7-44C7-84D6-6E439019BC31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B6A3BA6-40E7-44C7-84D6-6E439019BC31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

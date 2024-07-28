@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+  Adınız: @ViewBag.ad <br />
+  Soyadınız: @ViewData["soyad"] <br />
+  Cinsiyet: @TempData["cinsiyet"] <br/>
+</div>
+<br />
+<br />
+<div>
+    @Html.TextBox("ad")
+    @Html.TextBox("soyad")
+    @Html.CheckBox("onay")
+
+</div>
