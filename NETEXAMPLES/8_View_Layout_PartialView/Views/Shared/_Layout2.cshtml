@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - _8_View_Layout_PartialView</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/_8_View_Layout_PartialView.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="layout-two">
+            @RenderBody() <!-- render nested section, Bu Layout u kulanan her view bu renderbody içinde gözükür. -->
+    </div>
+</body>
+</html>

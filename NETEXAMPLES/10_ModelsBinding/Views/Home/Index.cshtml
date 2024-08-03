@@ -1,0 +1,24 @@
+﻿@using _10_ModelsBinding.Models
+@model Kisi
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <div>
+        <p>Ad: @Model.Ad</p>
+        <p>Soyad: @Model.Soyad</p>
+        <p>Yaş: @Model.Yas</p>
+    </div>
+    <div>
+        <h4>Model Post Controller</h4>
+        @using (Html.BeginForm())
+        {
+            <p>Ad: @Html.TextBoxFor(model => model.Ad)</p>
+            <p>Soyad: @Html.TextBoxFor(model => model.Soyad)</p>
+            <p>Yaş: @Html.TextBoxFor(model => model.Yas)</p>
+            <br />
+            <input type="submit" value="Gönder" />
+        }
+    </div>
+</div>

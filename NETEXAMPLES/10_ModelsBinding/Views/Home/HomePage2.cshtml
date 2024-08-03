@@ -1,0 +1,15 @@
+﻿@using _10_ModelsBinding.ViewModels
+@model HomePageViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <div>
+        <p>Ad: @Model.KisiNesnesi.Ad</p>
+        <p>Soyad: @Model.KisiNesnesi.Soyad</p>
+        <p>Yaş: @Model.KisiNesnesi.Yas</p>
+        <p>Adres Tanım: @Model.AdresNesnesi.AdresTanim</p>
+        <p>Şehir: @Model.AdresNesnesi.Sehir</p>
+    </div>
+</div>

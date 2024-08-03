@@ -1,0 +1,22 @@
+﻿@model Odev_1.Models.Product
+@using (Html.BeginForm("Create", "Home", FormMethod.Post))
+{
+    <div>
+        @Html.LabelFor(model => model.ProductName)
+        @Html.TextBoxFor(model => model.ProductName)
+        @Html.ValidationMessageFor(model => model.ProductName)
+    </div>
+    <div>
+        @Html.LabelFor(model => model.Price)
+        @Html.TextBoxFor(model => model.Price)
+        @Html.ValidationMessageFor(model => model.Price)
+    </div>
+    <div>
+        @Html.LabelFor(model => model.Discount)
+        @Html.TextBoxFor(model => model.Discount)
+        @Html.ValidationMessageFor(model => model.Discount)
+    </div>
+    <div>
+        <input type="submit" value="Ürün oluştur" />s
+    </div>
+}
