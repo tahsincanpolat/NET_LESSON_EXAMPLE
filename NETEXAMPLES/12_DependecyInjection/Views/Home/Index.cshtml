@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model List<_12_DependecyInjection.Models.Student>
+
+<div class="text-center">
+  <h1>Öğrenci Listesi</h1>
+  <table class="table">
+     <thead>
+            <tr>
+                <th>ID</th>
+                <th>İsim</th>
+                <th>Yaş</th>
+            </tr>
+     </thead>
+     <tbody>
+         @foreach (var student in Model)
+            {
+                <tr>
+                    <td>@student.Id</td>
+                    <td>@student.Name</td>
+                    <td>@student.Age</td>
+                </tr>
+            }
+           
+     </tbody>
+      
+  </table>
+</div>
