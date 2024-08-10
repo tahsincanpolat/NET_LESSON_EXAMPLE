@@ -27,13 +27,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_ModelsBinding", "10_Mode
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_FluentValidation", "11_FluentValidation\11_FluentValidation.csproj", "{6AA53984-8188-40F5-85EE-3B3F0DFC352E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_DependecyInjection", "12_DependecyInjection\12_DependecyInjection.csproj", "{416FF0FE-0F88-4E94-8608-C26E624C7B1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12_DependecyInjection", "12_DependecyInjection\12_DependecyInjection.csproj", "{416FF0FE-0F88-4E94-8608-C26E624C7B1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_State_Management", "13_State_Management\13_State_Management.csproj", "{3010BDA0-5900-46D3-A932-C1858A99168D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13_State_Management", "13_State_Management\13_State_Management.csproj", "{3010BDA0-5900-46D3-A932-C1858A99168D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_Middleware", "14_Middleware\14_Middleware.csproj", "{C14B43E2-9668-4276-9742-5A966C93E51D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14_Middleware", "14_Middleware\14_Middleware.csproj", "{C14B43E2-9668-4276-9742-5A966C93E51D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_Filter_Operations", "15_Filter_Operations\15_Filter_Operations.csproj", "{DC6C1923-9BB3-4AFB-9863-4E1EE69DF281}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15_Filter_Operations", "15_Filter_Operations\15_Filter_Operations.csproj", "{DC6C1923-9BB3-4AFB-9863-4E1EE69DF281}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16_AutoMapper", "16_AutoMapper\16_AutoMapper.csproj", "{0D19274D-7471-4642-A4C4-920A61D57738}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17_WebApi", "17_WebApi\17_WebApi.csproj", "{9331B526-539F-4552-A6F0-2BB9467BCC6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +109,14 @@ Global
 		{DC6C1923-9BB3-4AFB-9863-4E1EE69DF281}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC6C1923-9BB3-4AFB-9863-4E1EE69DF281}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC6C1923-9BB3-4AFB-9863-4E1EE69DF281}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D19274D-7471-4642-A4C4-920A61D57738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D19274D-7471-4642-A4C4-920A61D57738}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D19274D-7471-4642-A4C4-920A61D57738}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D19274D-7471-4642-A4C4-920A61D57738}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9331B526-539F-4552-A6F0-2BB9467BCC6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9331B526-539F-4552-A6F0-2BB9467BCC6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9331B526-539F-4552-A6F0-2BB9467BCC6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9331B526-539F-4552-A6F0-2BB9467BCC6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
